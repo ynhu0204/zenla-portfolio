@@ -677,8 +677,9 @@ body {
 
 /* === SOCIAL LINKS SECTION === */
 .social-links-container {
-    margin: var(--space-xxl) 0;
-    perspective: 1000px;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
 }
 
 .social-links {
