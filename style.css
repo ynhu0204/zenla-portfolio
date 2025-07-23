@@ -679,17 +679,14 @@ body {
 .social-links-container {
   display: flex;
   justify-content: center;
-  align-items: center; /* 👈 Canh giữa theo chiều dọc nếu cần */
-  width: 100%;
-  text-align: center;
   margin: 40px 0;
+  width: 100%;
 }
 
 .social-links {
-    display: flex;
-    justify-content: center;
-    gap: var(--space-xl);
-    transform-style: preserve-3d;
+  display: flex;
+  gap: var(--space-xl);
+  justify-content: center;
 }
 
 .social-link {
